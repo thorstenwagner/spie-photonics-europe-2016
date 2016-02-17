@@ -15,7 +15,7 @@ This the data and scripts to reproduce the results my publication at the SPIE Ph
 * tracks_cyto_confined.RData: Confined diffusion trajectories of 50 nm gold in V79 fibroblasts recorded by darkfield microscopy
 * tracks_laser_active.RData: Active diffusion trajectories of 50 nm gold in V79 fibroblasts recorded by confocal laser scanning microscopy
 * tracks_laser_confined.RData: Confined diffusion trajectories of 50 nm gold in V79 fibroblasts recorded by confocal laser scanning microscopy
-* tracks_nta_many_free.RData: Free diffusion trajectories of 100 nm polystyrene particles in V79 fibroblasts recorded by confocal laser scanning microscopy
+* tracks_nta_many_free.RData: Free diffusion trajectories of 100 nm polystyrene particles recorded by NTA LM10 device
 
 ##Objects
 * randomForestModel.RData: RObject with trained random forest model
@@ -23,3 +23,6 @@ This the data and scripts to reproduce the results my publication at the SPIE Ph
 ##Scripts
 * TrainModel.R: Script to train the model and evaluate it with simulated trajectories.
 * ClassifiyTracks.R: Script which classifies real world trajectories
+
+##Programs
+* track-generator: Small program which simulates the different diffusion modes using [TraJ](https://github.com/thorstenwagner/TraJ) and save it to an xml file.
